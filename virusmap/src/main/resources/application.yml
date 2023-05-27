@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: caucse1234
+    url: jdbc:mysql://caucse.club:3306/virus?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:/Mapper/*.xml
+  type-aliases-package: com.example.virusmap
+
+
